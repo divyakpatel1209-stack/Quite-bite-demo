@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>QuickBite — Restaurant Menu</title>
+
+    <!-- Preload all food images BEFORE any JS runs — fastest possible image loading -->
+    <link rel="preload" href="/Cake.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/paneer-tikka.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/veg-biryani.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/cheese-pizza.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/gujarati-thali.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/cold-coffee.webp" as="image" type="image/webp" />
+    <link rel="preload" href="/masala-dosa.webp" as="image" type="image/webp" />
+
+    <!-- model-viewer loaded async so it never blocks page render -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-BwUr7P-S.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DES9smvm.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
